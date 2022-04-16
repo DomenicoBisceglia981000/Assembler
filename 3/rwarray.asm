@@ -48,6 +48,7 @@ mult $s2 $s7
 mflo $t0
 lw $t0 $t0($s3)
 
+
 cUUno:
 #• se c=1, sovrascriva il b-esimo elemento dell’array con il valore dell’a-esimo
 #elemento;
