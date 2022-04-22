@@ -38,6 +38,7 @@ syscall
 li $v0 5
 syscall #lettura c
 move $s2 $v0
+
 la $s3 array
 beqz $s2 cUZero
 li $s7 4
@@ -46,7 +47,7 @@ cUZero:
 #• se c=0, scambi l’a-esimo elemento dell’array con il b-esimo;
 mult $s2 $s7
 mflo $t0
-lw $t0 $t0($s3)
+lw $t0 0($s3)
 
 
 cUUno:
