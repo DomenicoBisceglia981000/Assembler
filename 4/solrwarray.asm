@@ -1,4 +1,4 @@
-.globl main
+
 .data
 array: 9 93 1 3 4 19 3 1 4 3 0 199 100
 msg: .asciiz "comando banana"
